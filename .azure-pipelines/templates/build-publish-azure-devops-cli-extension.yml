@@ -1,0 +1,21 @@
+steps:
+  - script: 'pip install --upgrade .'
+    displayName: 'Install Azure DevOps CLI extension'
+    workingDirectory: 'azure-devops/'
+
+  - task: PythonScript@0
+    displayName: 'Remove code comments from SDK files'
+    inputs:
+      scriptSource: 'filePath'
+      scriptPath: 'scripts/removeComments.py'
+
+  - script: 'python setup.py sdist bdist_wheel'
+    displayName: 'Build wheel for Azure DevOps CLI extension'
+    workingDirectory: 'azure-devops/'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Azure DevOps CLI extension as artifact'
+    inputs:
+      pathtoPublish: 'azure-devops/dist' 
+      artifactName: 'azure-devops-cli-extension' 
+      publishLocation: 'Container'

@@ -1,0 +1,670 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: GET
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/Definitions?name=BuildTests%20Definition1
+  response:
+    body:
+      string: '{"count":1,"value":[{"_links":{"self":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/Definitions/26?revision=2"},"web":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_build/definition?definitionId=26"},"editor":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_build/designer?id=26&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/status/26"}},"quality":"definition","authoredBy":{"displayName":"Devops
+        Cli","url":"https://spsprodsin2.vssps.visualstudio.com/Ab5db41ca-f3ef-48ce-a8e3-7d282463dbe2/_apis/Identities/60a59117-a1ed-6677-ab04-b3de5aa38954","_links":{"avatar":{"href":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"}},"id":"60a59117-a1ed-6677-ab04-b3de5aa38954","uniqueName":"devops-cli@outlook.com","imageUrl":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0","descriptor":"msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/devops-cli-test-org/_apis/build/Queues/1961"}},"id":1961,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/devops-cli-test-org/_apis/build/Queues/1961","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":26,"name":"BuildTests Definition1","url":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/Definitions/26?revision=2","uri":"vstfs:///Build/Definition/26","path":"\\","type":"build","queueStatus":"enabled","revision":2,"createdDate":"2021-09-03T06:34:28.197Z","project":{"id":"cbd677f8-2300-4c22-b049-ba631347c447","name":"BuildTests","url":"https://dev.azure.com/devops-cli-test-org/_apis/projects/cbd677f8-2300-4c22-b049-ba631347c447","state":"wellFormed","revision":2248,"visibility":"public","lastUpdateTime":"2021-09-03T06:29:58.75Z"}}]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 6f706c10-154e-4956-a8bc-19d9003252b2
+      cache-control:
+      - no-cache
+      content-length:
+      - '2099'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:46 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: 32126EE71FAF410D8DC88C50634B6F56 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:46Z'
+      x-tfs-processid:
+      - 33036c96-6296-4592-9418-e1fbe6c3587b
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - 6f706c10-154e-4956-a8bc-19d9003252b2
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"definition": {"id": 26}}'
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '26'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: POST
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/Builds
+  response:
+    body:
+      string: '{"_links":{"self":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/Builds/13"},"web":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_build/results?buildId=13"},"sourceVersionDisplayUri":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/builds/13/sources"},"timeline":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/builds/13/Timeline"},"badge":{"href":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/status/26"}},"properties":{},"tags":[],"validationResults":[],"plans":[{"planId":"455f0ac0-7fa6-47cc-946f-88c8fb27a0b6"}],"triggerInfo":{},"id":13,"buildNumber":"20210903.2","status":"notStarted","queueTime":"2021-09-03T06:54:46.7526834Z","url":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/Builds/13","definition":{"drafts":[],"id":26,"name":"BuildTests
+        Definition1","url":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/Definitions/26?revision=2","uri":"vstfs:///Build/Definition/26","path":"\\","type":"build","queueStatus":"enabled","revision":2,"project":{"id":"cbd677f8-2300-4c22-b049-ba631347c447","name":"BuildTests","url":"https://dev.azure.com/devops-cli-test-org/_apis/projects/cbd677f8-2300-4c22-b049-ba631347c447","state":"wellFormed","revision":2248,"visibility":"public","lastUpdateTime":"2021-09-03T06:29:58.75Z"}},"buildNumberRevision":2,"project":{"id":"cbd677f8-2300-4c22-b049-ba631347c447","name":"BuildTests","url":"https://dev.azure.com/devops-cli-test-org/_apis/projects/cbd677f8-2300-4c22-b049-ba631347c447","state":"wellFormed","revision":2248,"visibility":"public","lastUpdateTime":"2021-09-03T06:29:58.75Z"},"uri":"vstfs:///Build/Build/13","sourceBranch":"refs/heads/main","sourceVersion":"767c3ab99f6d0a7ad493a14b3b72f13b2d797f20","queue":{"id":1961,"name":"Hosted
+        Ubuntu 1604","pool":{"id":8,"name":"Hosted Ubuntu 1604","isHosted":true}},"priority":"normal","reason":"manual","requestedFor":{"displayName":"Devops
+        Cli","url":"https://spsprodsin2.vssps.visualstudio.com/Ab5db41ca-f3ef-48ce-a8e3-7d282463dbe2/_apis/Identities/60a59117-a1ed-6677-ab04-b3de5aa38954","_links":{"avatar":{"href":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"}},"id":"60a59117-a1ed-6677-ab04-b3de5aa38954","uniqueName":"devops-cli@outlook.com","imageUrl":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0","descriptor":"msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"},"requestedBy":{"displayName":"Devops
+        Cli","url":"https://spsprodsin2.vssps.visualstudio.com/Ab5db41ca-f3ef-48ce-a8e3-7d282463dbe2/_apis/Identities/60a59117-a1ed-6677-ab04-b3de5aa38954","_links":{"avatar":{"href":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"}},"id":"60a59117-a1ed-6677-ab04-b3de5aa38954","uniqueName":"devops-cli@outlook.com","imageUrl":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0","descriptor":"msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"},"lastChangedDate":"2021-09-03T06:54:47.3Z","lastChangedBy":{"displayName":"Devops
+        Cli","url":"https://spsprodsin2.vssps.visualstudio.com/Ab5db41ca-f3ef-48ce-a8e3-7d282463dbe2/_apis/Identities/60a59117-a1ed-6677-ab04-b3de5aa38954","_links":{"avatar":{"href":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"}},"id":"60a59117-a1ed-6677-ab04-b3de5aa38954","uniqueName":"devops-cli@outlook.com","imageUrl":"https://dev.azure.com/devops-cli-test-org/_apis/GraphProfile/MemberAvatars/msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0","descriptor":"msa.NjBhNTkxMTctYTFlZC03Njc3LWFiMDQtYjNkZTVhYTM4OTU0"},"orchestrationPlan":{"planId":"455f0ac0-7fa6-47cc-946f-88c8fb27a0b6"},"logs":{"id":0,"type":"Container","url":"https://dev.azure.com/devops-cli-test-org/cbd677f8-2300-4c22-b049-ba631347c447/_apis/build/builds/13/logs"},"repository":{"id":"1e9923d1-34f2-4dac-acc7-a5835b8bc0e7","type":"TfsGit","name":"BuildTests","url":"https://dev.azure.com/devops-cli-test-org/BuildTests/_git/BuildTests","clean":null,"checkoutSubmodules":false},"keepForever":false,"retainedByRelease":false,"triggeredByBuild":null}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 97f47cb4-d565-45c5-89a7-ef9915dbcb66
+      cache-control:
+      - no-cache
+      content-length:
+      - '4588'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:48 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: 8ADEEF5F23064DBAAAFB0F04F285FC12 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:46Z'
+      x-tfs-processid:
+      - 492408da-5e49-4a09-af76-c4a3486056a0
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - 97f47cb4-d565-45c5-89a7-ef9915dbcb66
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: PUT
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags/TestTag0
+  response:
+    body:
+      string: '{"count":1,"value":["TestTag0"]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - c1b60ac9-05b7-4c19-9c84-4e0b0067c8d0
+      cache-control:
+      - no-cache
+      content-length:
+      - '32'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:49 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: AD26412D7A894B2081A1667021D8698C Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:49Z'
+      x-tfs-processid:
+      - b069830b-2ac4-41e8-b087-e81d8d5d41e4
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - c1b60ac9-05b7-4c19-9c84-4e0b0067c8d0
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '["TestTag1", "TestTag2"]'
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '24'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: POST
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags
+  response:
+    body:
+      string: '{"count":3,"value":["TestTag0","TestTag1","TestTag2"]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 7c9a6f3e-cffc-47d5-8119-97d8262bedb8
+      cache-control:
+      - no-cache
+      content-length:
+      - '54'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:50 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: B453048301AA495ABF537E8CFCACBBF2 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:49Z'
+      x-tfs-processid:
+      - 182a8556-fbec-4fc5-b1eb-57d0aad95738
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - 7c9a6f3e-cffc-47d5-8119-97d8262bedb8
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: GET
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags
+  response:
+    body:
+      string: '{"count":3,"value":["TestTag0","TestTag1","TestTag2"]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - b5d29009-a3d8-48de-bb92-9e411c9f37be
+      cache-control:
+      - no-cache
+      content-length:
+      - '54'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:50 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: CEB961F8851048D38C33B93C676794BE Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:50Z'
+      x-tfs-processid:
+      - 0b3f17d2-bfd6-4207-a932-f594fbb89ed7
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - b5d29009-a3d8-48de-bb92-9e411c9f37be
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: DELETE
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags/TestTag2
+  response:
+    body:
+      string: '{"count":2,"value":["TestTag0","TestTag1"]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 6f706b86-154e-4956-a8bc-19d9003252b2
+      cache-control:
+      - no-cache
+      content-length:
+      - '43'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:50 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: 1E6A832206D14549AE3F1404E183B606 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:50Z'
+      x-tfs-processid:
+      - 33036c96-6296-4592-9418-e1fbe6c3587b
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - 6f706b86-154e-4956-a8bc-19d9003252b2
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: DELETE
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags/TestTag1
+  response:
+    body:
+      string: '{"count":1,"value":["TestTag0"]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - c1b60dcc-05b7-4c19-9c84-4e0b0067c8d0
+      cache-control:
+      - no-cache
+      content-length:
+      - '32'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:51 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: B17F8C895A0C4B35B8ED7B2893D14C9E Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:51Z'
+      x-tfs-processid:
+      - b069830b-2ac4-41e8-b087-e81d8d5d41e4
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - c1b60dcc-05b7-4c19-9c84-4e0b0067c8d0
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: DELETE
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags/TestTag0
+  response:
+    body:
+      string: '{"count":0,"value":[]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - a1b3a69a-d286-45f9-b1f1-a936c122dfba
+      cache-control:
+      - no-cache
+      content-length:
+      - '22'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:51 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: E39C5C06CF9E4CADB010295FD7624025 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:51Z'
+      x-tfs-processid:
+      - 74de2c7d-1a74-4645-975c-16e4bc85c5c1
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - a1b3a69a-d286-45f9-b1f1-a936c122dfba
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.9.7 (Windows-10-10.0.19043-SP0) msrest/0.6.21 azure-devops/5.1.0b4
+        devOpsCli/0.21.0
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: GET
+    uri: https://dev.azure.com/devops-cli-test-org/buildtests/_apis/build/builds/13/tags
+  response:
+    body:
+      string: '{"count":0,"value":[]}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 7044cf98-6c13-4350-9c70-e15c854f026d
+      cache-control:
+      - no-cache
+      content-length:
+      - '22'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Sep 2021 06:54:52 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:a892bfef-0287-4640-9f5e-cffc90fbcf94
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: D77A26EAED944F4AAE2A6975342B07F2 Ref B: BOM02EDGE0413 Ref C: 2021-09-03T06:54:52Z'
+      x-tfs-processid:
+      - 1518c944-e66e-4a1c-8038-56a4612247d9
+      x-tfs-session:
+      - 03d8fdd5-e4a7-4858-8257-1d8498a961b1
+      x-vss-e2eid:
+      - 7044cf98-6c13-4350-9c70-e15c854f026d
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 60a59117-a1ed-6677-ab04-b3de5aa38954:devops-cli@outlook.com
+    status:
+      code: 200
+      message: OK
+version: 1
